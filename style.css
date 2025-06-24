@@ -24,7 +24,7 @@ body {
 .container-fluid {
   background: url("img/Background.png");
   width: 100%;
-  height: 400px;
+  height: 560px;
   margin-top: 70px;
   position: relative;
 }
@@ -60,9 +60,4 @@ body {
     height: 900px;
   }
 
-}
-@media screen and (min-width: 1001px) and (max-width: 2000px){
-   .container-fluid {
-    height: 1200px;
-  }
 }
