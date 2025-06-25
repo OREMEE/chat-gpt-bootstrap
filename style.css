@@ -32,6 +32,9 @@ body {
   position: absolute;
   width: 50%;
 }
+.header {
+  margin-top: -20px;
+}
 
 @media screen and (max-width: 650px) {
   .box {
@@ -45,8 +48,11 @@ body {
     width: 100%;
   }
   .container-fluid {
-    height: 1250px;
+    height: 1200px;
   }
+    .header {
+  margin-top: 0px;
+}
 }
 @media screen and (min-width: 700px) and (max-width: 1000px) {
   .box {
@@ -59,5 +65,8 @@ body {
   .container-fluid {
     height: 900px;
   }
+ .header {
+  margin-top: 1px;
+}
 
 }
